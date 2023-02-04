@@ -12,7 +12,7 @@ import { SinglePostComponent } from './pages/single-post/single-post.component';
 import { TermsAndConditionComponent } from './pages/terms-and-condition/terms-and-condition.component';
 import { ContactUsComponent } from './pages/contact-us/contact-us.component';
 import { SubscriptionFormComponent } from './subscription-form/subscription-form.component';
-
+import { CommentFormComponent } from './comments/comment-form/comment-form.component';
 import { CommentListComponent } from './comments/comment-list/comment-list.component';
 import { AboutUsComponent } from './pages/about-us/about-us.component';
 import { PostCardComponent } from './layouts/post-card/post-card.component';
@@ -31,7 +31,8 @@ import { PostCardComponent } from './layouts/post-card/post-card.component';
     SubscriptionFormComponent,
     CommentListComponent,
     AboutUsComponent,
-    PostCardComponent
+    PostCardComponent,
+    CommentFormComponent
   ],
   imports: [
     BrowserModule,
